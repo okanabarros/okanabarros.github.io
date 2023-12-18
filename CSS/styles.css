@@ -1,0 +1,33 @@
+*{
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url("IMG/BACK.JPG");
+}
+.nav-items{
+    background-color: rgb(141, 190, 240);
+    border: black solid;
+    height: 8%;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.items{
+    list-style: none;
+    
+}
+.items li{ float: right;}
+.items .LOGO{ float: left;}
+.items li a,
+.items .LOGO{
+    display: block;
+    color: #fff;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.items .LOGO{ 
+}
